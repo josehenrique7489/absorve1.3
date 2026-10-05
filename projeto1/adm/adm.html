@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ABSORVE - Administrador</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(
+                135deg,
+                #ffe4ec,
+                #f8d9ff
+            );
+            font-family: Arial, sans-serif;
+        }
+
+        .container-principal {
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 30px;
+        }
+
+        .card-absorve {
+            width: 100%;
+            max-width: 650px;
+
+            background: white;
+
+            padding: 50px 35px;
+
+            border-radius: 30px;
+
+            box-shadow:
+                0 10px 35px
+                rgba(150, 80, 120, 0.20);
+        }
+
+        .coracao {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .titulo {
+            color: #d63384;
+            font-weight: bold;
+            font-size: 42px;
+        }
+
+        .subtitulo {
+            color: #8e5a7a;
+            font-size: 20px;
+            margin-bottom: 35px;
+        }
+
+        /* Botões */
+
+        .botao-absorve {
+            width: 100%;
+            max-width: 500px;
+
+            border: none;
+            border-radius: 18px;
+
+            padding: 18px 25px;
+
+            font-size: 18px;
+            font-weight: bold;
+
+            color: white;
+
+            background: linear-gradient(
+                135deg,
+                #d63384,
+                #b84fc4
+            );
+
+            box-shadow:
+                0 6px 15px
+                rgba(214, 51, 132, 0.25);
+
+            transition: 0.3s;
+        }
+
+        .botao-absorve:hover {
+            transform: translateY(-3px);
+
+            box-shadow:
+                0 10px 20px
+                rgba(214, 51, 132, 0.35);
+
+            color: white;
+        }
+
+        /* Botão voltar */
+
+        .voltar {
+            display: inline-block;
+            margin-top: 30px;
+        }
+
+        .voltar img {
+            transition: 0.3s;
+        }
+
+        .voltar img:hover {
+            transform: scale(1.1);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-principal">
+
+        <div class="card-absorve text-center">
+
+            <!-- Ícone -->
+
+            <div class="coracao">
+                🌸
+            </div>
+
+            <!-- Título -->
+
+            <h1 class="titulo">
+                ABSORVE
+            </h1>
+
+            <h2 class="subtitulo">
+                Segurança e confiança para todos 💗
+            </h2>
+
+            <hr class="mb-4">
+
+            <!-- BOTÕES -->
+
+            <div class="d-grid gap-3 col-12 col-md-10 mx-auto">
+
+                <!-- Consultar -->
+
+               
+
+
+                <!-- Atualizar -->
+
+                <a
+                    href="../adm/teste.html"
+                    class="btn botao-absorve">
+
+                    🩸 ATUALIZAR QUANTIDADE DE ABSORVENTES
+
+                </a>
+
+
+                <!-- Soma geral -->
+
+                <a
+                    href="../adm/geral.php"
+                    class="btn botao-absorve">
+
+                    📊 SOMA GERAL DOS 4 ANDARES
+
+                </a>
+
+                <a
+                    href="../adm/relatorio.php"
+                    class="btn botao-absorve">
+
+                    📋RELATÓRIO
+
+                </a>
+
+            </div>
+
+            <!-- Voltar -->
+
+            <div class="voltar">
+
+                <a href="../index.html">
+
+                    <img
+                        src="../img/voltar.png"
+                        alt="Voltar"
+                        width="50"
+                        height="50">
+
+                </a>
+
+            </div>
+
+            <p class="text-secondary mt-3 mb-0">
+                🌷 Cuidado e acolhimento para todas
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

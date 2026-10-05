@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Absorve - 2026.v01</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <style>
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ffe6f0, #f7e4ff);
+            font-family: Arial, sans-serif;
+        }
+
+        .pagina {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .cartao {
+            width: 100%;
+            max-width: 950px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 35px;
+            padding: 55px 40px;
+            box-shadow: 0 15px 40px rgba(180, 90, 140, 0.20);
+        }
+
+        .flor {
+            font-size: 55px;
+            margin-bottom: 5px;
+        }
+
+        #mensagem {
+            color: #d63384;
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #mensagem1 {
+            color: #8d6680 !important;
+            font-size: 20px;
+            margin-bottom: 45px;
+        }
+
+        .botao {
+            border: none;
+            min-width: 230px;
+            min-height: 75px;
+            border-radius: 20px;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 15px 20px;
+            box-shadow: 0 7px 15px rgba(120, 70, 100, 0.18);
+            transition: all 0.3s ease;
+        }
+
+        .botao:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 22px rgba(120, 70, 100, 0.25);
+            color: white;
+        }
+
+        .administrador {
+            background: linear-gradient(135deg, #d63384, #b84fc4);
+        }
+
+        .terreo {
+            background: linear-gradient(135deg, #8e7dff, #6f9bf7);
+        }
+
+        .andar {
+            background: linear-gradient(135deg, #ec6f9e, #d85c91);
+        }
+
+        .absorventes {
+            background: linear-gradient(135deg, #c84ccf, #e66f9e);
+        }
+
+        .rodape {
+            margin-top: 40px;
+            color: #b17c9d;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+
+            #mensagem {
+                font-size: 30px;
+            }
+
+            #mensagem1 {
+                font-size: 17px;
+            }
+
+            .cartao {
+                padding: 40px 20px;
+            }
+
+            .botao {
+                width: 100%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="pagina">
+
+        <div class="cartao text-center">
+
+            <!-- Decoração -->
+            <div class="flor">
+                🌸💗🌸
+            </div>
+
+            <!-- Título -->
+            <h1 id="mensagem">
+                BEM-VINDA AO SISTEMA
+            </h1>
+
+            <!-- Subtítulo -->
+            <p id="mensagem1">
+                Um espaço de cuidado, segurança e acolhimento 💕
+            </p>
+
+            <!-- Botões -->
+            <div class="d-flex flex-wrap justify-content-center gap-4">
+
+                <!-- Administrador -->
+                <a href="./adm/login1.php" class="text-decoration-none">
+
+                    <button class="botao administrador">
+
+                        👤<br>
+                        ADMINISTRADOR
+
+                    </button>
+
+                </a>
+
+
+                <!-- Térreo -->
+                <a href="./terreo/terreo.html" class="text-decoration-none">
+
+                    <button class="botao terreo">
+
+                        🌷<br>
+                        TÉRREO
+
+                    </button>
+
+                </a>
+
+
+                <!-- Primeiro andar -->
+                <a href="./primeiro_andar/primeiro.html" class="text-decoration-none">
+
+                    <button class="botao andar">
+
+                        🌷<br>
+                        PRIMEIRO ANDAR
+
+                    </button>
+
+                </a>
+
+
+                <!-- Segundo andar -->
+                <a href="./segundo_andar/segundo.html" class="text-decoration-none">
+
+                    <button class="botao andar">
+
+                        🌷<br>
+                        SEGUNDO ANDAR
+
+                    </button>
+
+                </a>
+
+
+                <!-- Terceiro andar -->
+                <a href="./terceiro_andar/terceiro.html" class="text-decoration-none">
+
+                    <button class="botao andar">
+
+                        🌷<br>
+                        TERCEIRO ANDAR
+
+                    </button>
+
+                </a>
+
+
+                
+
+            </div>
+
+            <!-- Rodapé -->
+            <div class="rodape">
+                🌸 ABSORVE • Cuidado e acolhimento para todas 🌸
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+

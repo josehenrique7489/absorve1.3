@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ABSORVE - Térreo</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tela.css">
+
+    <style>
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ffe6f0, #f4e1ff);
+            font-family: Arial, sans-serif;
+        }
+
+        .pagina {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .card-absorve {
+            width: 100%;
+            max-width: 650px;
+            background: white;
+            padding: 55px 35px;
+            border-radius: 35px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(180, 90, 140, 0.20);
+        }
+
+        .flores {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .titulo {
+            color: #d63384;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        #h22 {
+            color: #8d6680;
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .botoes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #cliente,
+        #cliente1 {
+            width: 300px;
+            min-height: 100px;
+            border: none;
+            border-radius: 22px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 7px 18px rgba(120, 70, 100, 0.20);
+            transition: 0.3s;
+        }
+
+        #cliente {
+            background: linear-gradient(135deg, #d63384, #c14bbd);
+        }
+
+        #cliente1 {
+            background: linear-gradient(135deg, #9b7cff, #e06bb3);
+        }
+
+        #cliente:hover,
+        #cliente1:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(120, 70, 100, 0.30);
+        }
+
+        .voltar {
+            display: inline-block;
+            margin-top: 35px;
+            padding: 10px;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+
+        .voltar:hover {
+            transform: scale(1.1);
+            background-color: #ffe6f0;
+        }
+
+        @media (max-width: 600px) {
+
+            .card-absorve {
+                padding: 40px 20px;
+            }
+
+            .titulo {
+                font-size: 30px;
+            }
+
+            #h22 {
+                font-size: 17px;
+            }
+
+            #cliente,
+            #cliente1 {
+                width: 100%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="pagina">
+
+        <div class="card-absorve">
+
+            <div class="flores">
+                🌸 💗 🌸
+            </div>
+
+            <h2 class="titulo">
+                ABSORVE
+            </h2>
+
+            <h2 id="h22">
+                Segurança e confiança para todas as clientes 💕
+            </h2>
+
+            <div class="botoes">
+
+                <a href="../primeiro_andar/consultar.php">
+                    <button type="button" class="btn" id="cliente">
+                        📦
+                        <br>
+                        CONSULTAR QUANTIDADE
+                    </button>
+                </a>
+
+                <a href="../primeiro_andar/pegar1.php">
+                    <button type="button" class="btn" id="cliente1">
+                        🩸
+                        <br>
+                        PEGAR ABSORVENTE
+                    </button>
+                </a>
+
+              
+
+            </div>
+
+            <a href="../index.html" class="voltar">
+                <img src="../img/voltar.png"
+                    alt="Voltar"
+                    width="50"
+                    height="50">
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
